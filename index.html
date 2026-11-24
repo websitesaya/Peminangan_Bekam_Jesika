@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Undangan Peminangan — Bekam Poko &amp; Jesika Tongge</title>
+<meta property="og:title" content="Undangan Peminangan — Bekam & Jesika">
+<meta property="og:description" content="Sabtu, 28 November 2026 · Kediaman Bpk. Nikodemus Sau Samping, DIT POLAIR Bolok">
+<meta property="og:image" content="Karakter.png">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body class="lock">
+
+<!-- SVG: bunga mawar yang dipakai berulang -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <radialGradient id="rg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#fff1ee"/><stop offset="45%" stop-color="#f3b9b9"/><stop offset="100%" stop-color="#d98a97"/>
+    </radialGradient>
+    <symbol id="rose" viewBox="0 0 120 120">
+      <g>
+        <circle cx="60" cy="25" r="26" fill="url(#rg)" opacity=".95"/>
+        <circle cx="95" cy="60" r="26" fill="url(#rg)" opacity=".95"/>
+        <circle cx="60" cy="95" r="26" fill="url(#rg)" opacity=".95"/>
+        <circle cx="25" cy="60" r="26" fill="url(#rg)" opacity=".95"/>
+        <circle cx="84" cy="36" r="24" fill="url(#rg)"/>
+        <circle cx="84" cy="84" r="24" fill="url(#rg)"/>
+        <circle cx="36" cy="84" r="24" fill="url(#rg)"/>
+        <circle cx="36" cy="36" r="24" fill="url(#rg)"/>
+        <circle cx="60" cy="60" r="26" fill="#f6c8c6"/>
+        <path d="M60 44c10 0 16 7 14 15-2 8-12 11-19 7-6-4-5-13 2-15 5-2 9 2 8 6" fill="none" stroke="#c9707f" stroke-width="3" stroke-linecap="round"/>
+        <path d="M60 30c-14 2-24 14-20 28M92 60c-2 15-16 24-30 20" fill="none" stroke="#e29aa4" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+      </g>
+    </symbol>
+    <symbol id="leaf" viewBox="0 0 60 120">
+      <path d="M30 2C6 30 4 80 30 118C56 80 54 30 30 2Z" fill="#a9c2a1"/>
+      <path d="M30 14V108" stroke="#8aa883" stroke-width="2" fill="none"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div id="petal-container" aria-hidden="true"></div>
+<div id="butterfly-container" aria-hidden="true"></div>
+
+<!-- ===================== OPENING ===================== -->
+<div id="opening-screen">
+  <div class="opening-bg"></div>
+  <div class="curtain-panel curtain-left"><div class="tassel"></div></div>
+  <div class="curtain-panel curtain-right"><div class="tassel"></div></div>
+
+  <!-- hiasan bunga sudut -->
+  <div class="corner corner-tl"><svg class="f f1"><use href="#rose"/></svg><svg class="f f2"><use href="#rose"/></svg><svg class="l l1"><use href="#leaf"/></svg></div>
+  <div class="corner corner-br"><svg class="f f1"><use href="#rose"/></svg><svg class="f f2"><use href="#rose"/></svg><svg class="l l1"><use href="#leaf"/></svg></div>
+
+  <div class="opening-content">
+    <div class="rings" aria-hidden="true">
+      <svg viewBox="0 0 160 90"><g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round">
+        <ellipse class="ring r1" cx="58" cy="52" rx="38" ry="24" transform="rotate(-12 58 52)"/>
+        <ellipse class="ring r2" cx="102" cy="40" rx="34" ry="21" transform="rotate(10 102 40)"/>
+      </g>
+      <path class="gem" d="M80 8l6 8-6 8-6-8z" fill="#fff"/></svg>
+    </div>
+    <div class="opening-eyebrow">Undangan Peminangan</div>
+    <div class="opening-names"><span class="shimmer">Bekam</span><span class="opening-amp">&amp;</span><span class="shimmer">Jesika</span></div>
+    <img class="opening-chibi" src="Karakter.png" alt="Karakter pengantin">
+    <div class="opening-guest">Kepada Yth. Bapak/Ibu/Sdra./i<br><strong id="guest-name">Tamu Undangan</strong></div>
+    <button class="btn-open" id="btn-open"><span>Buka Undangan</span></button>
+  </div>
+</div>
+
+<!-- ===================== ISI UNDANGAN ===================== -->
+<div id="invitation">
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="corner corner-tl"><svg class="f f1"><use href="#rose"/></svg><svg class="f f2"><use href="#rose"/></svg><svg class="l l1"><use href="#leaf"/></svg></div>
+    <div class="corner corner-br"><svg class="f f1"><use href="#rose"/></svg><svg class="f f2"><use href="#rose"/></svg><svg class="l l1"><use href="#leaf"/></svg></div>
+
+    <div class="rings" aria-hidden="true">
+      <svg viewBox="0 0 160 90"><g fill="none" stroke="#b76e79" stroke-width="2.4" stroke-linecap="round">
+        <ellipse class="ring r1" cx="58" cy="52" rx="38" ry="24" transform="rotate(-12 58 52)"/>
+        <ellipse class="ring r2" cx="102" cy="40" rx="34" ry="21" transform="rotate(10 102 40)"/>
+      </g><path class="gem" d="M80 8l6 8-6 8-6-8z" fill="#c27d86"/></svg>
+    </div>
+    <div class="hero-eyebrow">Undangan Peminangan</div>
+    <h1 class="hero-names"><span class="shimmer-dark">Bekam Poko</span><span class="amp">&amp;</span><span class="shimmer-dark">Jesika Tongge</span></h1>
+
+    <div class="chibi-stage">
+      <div class="chibi-glow"></div>
+      <img class="chibi" src="Karakter.png" alt="Karakter Bekam dan Jesika">
+      <span class="spark s1">✦</span><span class="spark s2">✦</span><span class="spark s3">✧</span><span class="spark s4">✦</span>
+    </div>
+
+    <div class="countdown" id="countdown">
+      <div><span id="cd-hari">00</span><small>Hari</small></div>
+      <div><span id="cd-jam">00</span><small>Jam</small></div>
+      <div><span id="cd-menit">00</span><small>Menit</small></div>
+      <div><span id="cd-detik">00</span><small>Detik</small></div>
+    </div>
+    <div class="scroll-hint">▾ scroll untuk lihat undangan</div>
+  </section>
+
+  <!-- SALAM -->
+  <section id="salam">
+    <div class="container">
+      <div class="section-title">Salam Sejahtera</div>
+      <h2 class="section-heading">Undangan Peminangan</h2>
+      <div class="divider"></div>
+      <p class="lead">Dengan penuh sukacita dan rasa hormat, kami mengundang Bapak/Ibu/Sdra./i untuk menghadiri acara peminangan anak kami.</p>
+    </div>
+  </section>
+
+  <!-- CALON MEMPELAI -->
+  <section id="mempelai">
+    <div class="container">
+      <div class="section-title">Calon Mempelai</div>
+      <h2 class="section-heading">Dua Hati, Satu Tujuan</h2>
+      <div class="divider"></div>
+
+      <div class="couple-card">
+        <div class="avatar"><img src="Karakter_Pria.png" alt="Bekam Poko"></div>
+        <div class="couple-name">Bekam Poko</div>
+        <div class="couple-role">Calon Mempelai Pria</div>
+      </div>
+      <div class="couple-amp"><span>&amp;</span></div>
+      <div class="couple-card">
+        <div class="avatar"><img src="Karakter_Wanita.png" alt="Jesika Tongge"></div>
+        <div class="couple-name">Jesika Tongge</div>
+        <div class="couple-role">Calon Mempelai Wanita</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETAIL ACARA -->
+  <section id="acara">
+    <div class="container">
+      <div class="section-title">Save The Date</div>
+      <h2 class="section-heading">Waktu &amp; Tempat</h2>
+      <div class="divider"></div>
+
+      <div class="date-card">
+        <div class="date-day">Sabtu</div>
+        <div class="date-num">28</div>
+        <div class="date-month">November</div>
+        <div class="date-year">2026</div>
+      </div>
+
+      <div class="event-card">
+        <h3>Acara Peminangan</h3>
+        <p class="time">Pukul 17.00 – selesai</p>
+        <p>Kediaman Bpk. Nikodemus Sau Samping</p>
+        <p>DIT POLAIR Bolok</p>
+        <button class="btn-cal" id="btn-cal">+ Tambahkan ke Kalender</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOKASI -->
+  <section id="lokasi">
+    <div class="container">
+      <div class="section-title">Lokasi Acara</div>
+      <h2 class="section-heading">Peta Lokasi</h2>
+      <div class="divider"></div>
+      <p class="lead small">Rumah Bpk. Nikodemus Sau Samping<br>DIT POLAIR Bolok</p>
+      <div class="map-frame">
+        <iframe title="Peta lokasi acara" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q=QGF7%2B9FG%20Terminal%20Bolok%2C%20Kupang%20Barat&amp;z=16&amp;output=embed"></iframe>
+      </div>
+      <a class="btn-map" href="https://maps.app.goo.gl/9mPKRQwjEfAAY8bp7?g_st=aw" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        Buka di Google Maps
+      </a>
+    </div>
+  </section>
+
+  <!-- TURUT MENGUNDANG -->
+  <section id="turut">
+    <div class="container">
+      <div class="section-title">Turut Mengundang</div>
+      <h2 class="section-heading">Keluarga Besar</h2>
+      <div class="divider"></div>
+      <div class="fam-list">
+        <div class="fam">Kel. Besar Sau</div>
+        <div class="fam">Kel. Besar Tongge</div>
+        <div class="fam">Kel. Besar Ledoh</div>
+        <div class="fam">Kel. Besar Henutein</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="script">Bekam &amp; Jesika</span>
+    <div class="ornament-line"></div>
+    <small class="thanks">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Sdra./i berkenan hadir dan memberikan doa restu.</small>
+    <br><br>
+    <small>© 2026 — Bekam &amp; Jesika</small>
+
+    <div class="footer-logo"><img src="Logo.jpg" alt="Logo Usaha"></div>
+
+    <div class="credit">
+      <small class="credit-by">Design By <strong>Zhald_Design</strong></small>
+      <div class="social-links">
+        <a href="https://www.instagram.com/rijald_elimanafe" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/>
+            <circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/>
+            <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/>
+          </svg>
+        </a>
+        <a href="https://wa.me/6281338596854" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.7-1.2A9 9 0 1 0 12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M8.6 8.4c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .6.4.2.5.7 1.6.7 1.7.1.1.1.3 0 .4-.1.2-.2.3-.3.4l-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.5.7c.2.1.4.2.4.4.1.5-.1 1-.4 1.4-.3.4-.9.7-1.4.7-.9.1-1.7-.2-3.2-.9-2.3-1-3.7-3.2-3.9-3.4-.1-.2-1-1.3-1-2.5 0-1.2.6-1.8.8-2.1Z" fill="currentColor"/>
+          </svg>
+        </a>
+        <a href="https://www.tiktok.com/@zhalddesign" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.5 3c.4 2 1.7 3.4 3.7 3.6v2.6c-1.4 0-2.6-.4-3.7-1.2v6.1a5.1 5.1 0 1 1-4.4-5.1v2.7a2.5 2.5 0 1 0 1.8 2.4V3h2.6Z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <audio id="bg-music" src="musik.mp3" loop preload="none"></audio>
+</div>
+
+<div id="music-toggle">&#9835;</div>
+
+<script src="script.js?v=1"></script>
+</body>
+</html>
